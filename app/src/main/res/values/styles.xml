@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ModelTabButton" parent="TabButton">
+        <item name="android:minWidth">@dimen/btn_tab_min_width</item>
+        <item name="android:layout_height">@dimen/btn_tab_height</item>
+        <item name="android:background">@drawable/selector_tob_btn_bg</item>
+        <item name="android:textColor">@color/selector_tab_text_color</item>
+    </style>
+</resources>

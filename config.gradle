@@ -1,0 +1,17 @@
+ext {
+    android = [
+            COMPILE_SDK_VERSION    : 28,
+            BUILD_TOOLS_VERSION    : '28.0.3',
+            MIN_SDK_VERSION        : 21,
+            TARGET_SDK_VERSION     : 28,
+            ANDROID_SUPPORT_VERSION: '28.0.0',
+            SOURCE_COMPATIBILITY   : JavaVersion.VERSION_1_8,
+            TARGET_COMPATIBILITY   : JavaVersion.VERSION_1_8,
+            VERSION_CODE           : 112,
+            VERSION_NAME           : "1.1.2",
+            ROOM_VERSION           : "1.1.1",
+            GUAVA_VERSION          : '26.0-android',
+            NAV_VERSION            : '1.0.0',
+            LIFECYCLE_EXTENSIONS   : '2.0.0'
+    ]
+}

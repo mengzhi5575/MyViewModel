@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main_container"
+    app:startDestination="@id/firstContainerFragment">
+
+    <keep_state_fragment
+        android:id="@+id/firstContainerFragment"
+        android:name="com.android.test.myviewmode.fragment.FirstContainerFragment"
+        android:label="FirstContainerFragment" />
+    <keep_state_fragment
+        android:id="@+id/secondContainerFragment"
+        android:name="com.android.test.myviewmode.fragment.SecondContainerFragment"
+        android:label="SecondContainerFragment" />
+    <keep_state_fragment
+        android:id="@+id/thirdContainerFragment"
+        android:name="com.android.test.myviewmode.fragment.ThirdContainerFragment"
+        android:label="ThirdContainerFragment" />
+</navigation>

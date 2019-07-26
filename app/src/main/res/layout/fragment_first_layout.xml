@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="svm"
+            type="com.android.test.myviewmode.viewmodel.ShareViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RadioButton
+                android:id="@+id/radio_btn1"
+                style="@style/ModelTabButton"
+                android:button="@null"
+                android:checked="true"
+                android:text="测试一" />
+
+            <RadioButton
+                android:id="@+id/radio_btn2"
+                style="@style/ModelTabButton"
+                android:layout_marginStart="60px"
+                android:button="@null"
+                android:text="测试二" />
+
+            <RadioButton
+                android:id="@+id/radio_btn3"
+                style="@style/ModelTabButton"
+                android:layout_marginStart="60px"
+                android:button="@null"
+                android:text="测试三" />
+        </RadioGroup>
+
+        <fragment
+            android:id="@+id/first_fragment_content"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:defaultNavHost="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/radio_group" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

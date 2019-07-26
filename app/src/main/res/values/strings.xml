@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyViewModeDemo</string>
+    <string name="side_title">ViewModel</string>
+    <string name="side_txt_item_one">第一项</string>
+    <string name="side_txt_item_two">第二项</string>
+    <string name="side_txt_item_three">第三项</string>
+</resources>

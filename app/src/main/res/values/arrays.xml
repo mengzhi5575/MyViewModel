@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="sideBarTxt">
+        <item>@string/side_txt_item_one</item>
+        <item>@string/side_txt_item_two</item>
+        <item>@string/side_txt_item_three</item>
+    </integer-array>
+    <integer-array name="sideBarRes">
+        <item>@mipmap/ic_recommend_un_select</item>
+        <item>@mipmap/ic_kind_un_select</item>
+        <item>@mipmap/ic_my_un_select</item>
+    </integer-array>
+    <integer-array name="sidePressBarRes">
+        <item>@mipmap/ic_recommend_select</item>
+        <item>@mipmap/ic_kind_select</item>
+        <item>@mipmap/ic_my_select</item>
+    </integer-array>
+</resources>
